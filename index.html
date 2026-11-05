@@ -21,11 +21,12 @@
 <section class="section" id="cardapio"><div class="wrap"><div class="eyebrow">FEITO PARA BRINDAR</div><h2>Cardápio da casa</h2><p class="lead">Confira algumas sugestões. Os itens e preços abaixo são exemplos editáveis — personalize com o cardápio real do TERAPIA.</p><div class="menu-tabs" role="tablist"><button class="active" data-cat="Drinks">Drinks</button><button data-cat="Cervejas">Cervejas</button><button data-cat="Para comer">Para comer</button><button data-cat="Sem álcool">Sem álcool</button></div><div class="menu-list" id="menuList"></div><p class="note">Valores ilustrativos. Atualize antes de publicar o cardápio oficial.</p></div></section>
 <section class="section" id="galeria"><div class="wrap"><div class="eyebrow">UM POUCO DA NOSSA VIBE</div><h2>O TERAPIA em imagens</h2><p class="lead">Troque estes espaços pelas fotos reais do seu bar.</p><div class="gallery"><div class="gallerybox"><span>01 / drinks</span>Seu próximo rolê começa aqui</div><div class="gallerybox"><span>02 / brindes</span>Drinks & brindes</div><div class="gallerybox"><span>03 / som</span>Música boa</div><div class="gallerybox"><span>04 / encontros</span>Gente querida</div></div></div></section>
 <section class="section" id="reservas"><div class="wrap booking"><div><div class="eyebrow">GARANTA SEU LUGAR</div><h2>Reserva feita<br>sem complicação.</h2><p class="lead">Preencha os dados e envie sua solicitação. Aguarde a confirmação do bar antes de considerar a reserva confirmada.</p><p>Precisa tirar uma dúvida? Fale com a gente pelo WhatsApp.</p><div class="actions"><a class="btn secondary" href="https://wa.me/5511988168222?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20o%20TERAPIA%20Bar" target="_blank" rel="noopener">Tirar dúvida no WhatsApp ↗</a></div><p><a href="https://www.instagram.com/terapiiabar/" target="_blank" rel="noopener">Instagram ↗</a> &nbsp;·&nbsp; <a href="https://www.tiktok.com/@terapiiabar" target="_blank" rel="noopener">TikTok ↗</a></p></div>
-<form id="bookingForm"><div class="formgrid"><div class="field full"><label for="nome">Nome completo *</label><input id="nome" name="nome" required autocomplete="name"></div><div class="field"><label for="telefone">Telefone *</label><input id="telefone" name="telefone" required type="tel" autocomplete="tel" placeholder="(11) 99999-9999"></div><div class="field"><label for="data">Data *</label><input id="data" name="data" required type="date"></div><div class="field"><label for="horario">Horário desejado *</label><input id="horario" name="horario" required type="time"></div><div class="field"><label for="pessoas">Quantidade de pessoas *</label><select id="pessoas" name="pessoas" required><option value="">Selecione</option><option>1 pessoa</option><option>2 pessoas</option><option>3 pessoas</option><option>4 pessoas</option><option>5 pessoas</option><option>6 pessoas</option><option>7 pessoas</option><option>8 pessoas</option><option>9 pessoas</option><option>10 pessoas</option><option>Mais de 10 pessoas</option></select></div><div class="field full"><label for="tipo">Tipo de reserva</label><select id="tipo" name="tipo"><option>Mesa</option><option>Balcão</option><option>Aniversário</option><option>Comemoração especial</option></select></div><div class="field full"><label for="obs">Observações (opcional)</label><textarea id="obs" name="obs" placeholder="Algum pedido especial?"></textarea></div><div class="field full"><button type="submit">Enviar solicitação de reserva ↗</button><p class="note">Neste protótipo, os dados ficam salvos apenas neste navegador. Para reservas compartilhadas entre dispositivos, conecte um banco de dados online.</p><div id="formStatus" class="status" role="status"></div></div></div></form></div></section>
-<section class="section owner" id="proprietarios"><div class="wrap"><div class="eyebrow">ACESSO RESTRITO</div><h2>Área dos proprietários</h2><p class="lead">Painel de demonstração para consultar as reservas salvas neste navegador. Ainda não é protegido por autenticação de servidor.</p><div class="ownerbox"><label for="ownerPass">Senha de demonstração</label><input id="ownerPass" type="password" placeholder="Digite: terapia-demo"><button id="ownerLogin">Entrar no painel</button><p class="note">Troque por autenticação real antes de publicar para uso operacional.</p><div id="ownerPanel" hidden><h3>Reservas neste aparelho</h3><div id="reservationsList"></div><button id="exportCsv" class="secondary">Exportar reservas (CSV)</button><button id="clearReservations" class="secondary">Apagar reservas locais</button></div><div id="ownerStatus" class="status" role="status"></div></div></div></section>
+<form id="bookingForm"><div class="formgrid"><div class="field full"><label for="nome">Nome completo *</label><input id="nome" name="nome" required autocomplete="name"></div><div class="field"><label for="telefone">Telefone *</label><input id="telefone" name="telefone" required type="tel" autocomplete="tel" placeholder="(11) 99999-9999"></div><div class="field"><label for="data">Data *</label><input id="data" name="data" required type="date"></div><div class="field"><label for="horario">Horário desejado *</label><input id="horario" name="horario" required type="time"></div><div class="field"><label for="pessoas">Quantidade de pessoas *</label><select id="pessoas" name="pessoas" required><option value="">Selecione</option><option>1 pessoa</option><option>2 pessoas</option><option>3 pessoas</option><option>4 pessoas</option><option>5 pessoas</option><option>6 pessoas</option><option>7 pessoas</option><option>8 pessoas</option><option>9 pessoas</option><option>10 pessoas</option><option>Mais de 10 pessoas</option></select></div><div class="field full"><label for="tipo">Tipo de reserva</label><select id="tipo" name="tipo"><option>Mesa</option><option>Balcão</option><option>Aniversário</option><option>Comemoração especial</option></select></div><div class="field full"><label for="obs">Observações (opcional)</label><textarea id="obs" name="obs" placeholder="Algum pedido especial?"></textarea></div><div class="field full"><button type="submit">Enviar solicitação de reserva ↗</button><p class="note">Sua solicitação será enviada ao TERAPIA BAR. A reserva só estará confirmada após aprovação da equipe.</p><div id="formStatus" class="status" role="status"></div></div></div></form></div></section>
+<section class="section owner" id="proprietarios"><div class="wrap"><div class="eyebrow">GESTÃO SEGURA</div><h2>Área dos proprietários</h2><p class="lead">As solicitações são armazenadas no Supabase. Para consultar as reservas, entre no painel privado do Supabase com sua conta e abra Table Editor → reservas. O painel administrativo do site será ativado após configurar autenticação segura.</p><a class="btn secondary" href="https://supabase.com/dashboard" target="_blank" rel="noopener noreferrer">Abrir painel do Supabase ↗</a></div></section>
 </main>
 <footer><div class="wrap"><span>© TERAPIA Bar. Feito para viver bons momentos.</span><span>Instagram · TikTok · Bons drinks, boas histórias.</span></div></footer>
 <a class="whats" href="https://wa.me/5511988168222?text=Ol%C3%A1%2C%20TERAPIA%20Bar!" target="_blank" rel="noopener">WhatsApp ↗</a>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 const menus={
 "Drinks":[["Moscow Mule","Clássico refrescante da casa","R$ 28"],["Aperol Spritz","Aperol, espumante e água com gás","R$ 32"],["Caipirinha","Limão, açúcar e cachaça","R$ 22"],["Negroni","Gin, vermute e bitter","R$ 30"]],
@@ -35,17 +36,52 @@ const menus={
 };
 function renderMenu(cat){document.getElementById("menuList").innerHTML=menus[cat].map(x=>`<article class="menuitem"><div><h3>${x[0]}</h3><p>${x[1]}</p></div><span class="price">${x[2]}</span></article>`).join("");document.querySelectorAll(".menu-tabs button").forEach(b=>b.classList.toggle("active",b.dataset.cat===cat))}
 document.querySelectorAll(".menu-tabs button").forEach(b=>b.addEventListener("click",()=>renderMenu(b.dataset.cat)));renderMenu("Drinks");
-const storageKey="terapia_reservas_demo_v1";
-function getReservations(){try{return JSON.parse(localStorage.getItem(storageKey)||"[]")}catch(e){return []}}
-function saveReservations(data){localStorage.setItem(storageKey,JSON.stringify(data))}
-const dateInput=document.getElementById("data");dateInput.min=new Date(Date.now()-new Date().getTimezoneOffset()*60000).toISOString().slice(0,10);
-document.getElementById("bookingForm").addEventListener("submit",e=>{e.preventDefault();const f=new FormData(e.target);const r={id:Date.now(),nome:f.get("nome"),telefone:f.get("telefone"),data:f.get("data"),horario:f.get("horario"),pessoas:f.get("pessoas"),tipo:f.get("tipo"),obs:f.get("obs"),status:"Pendente"};const all=getReservations();all.push(r);saveReservations(all);const s=document.getElementById("formStatus");s.textContent="Solicitação salva neste navegador. A reserva ainda depende da confirmação do bar.";s.className="status show";e.target.reset();dateInput.min=new Date(Date.now()-new Date().getTimezoneOffset()*60000).toISOString().slice(0,10)});
-function showOwnerStatus(t){const s=document.getElementById("ownerStatus");s.textContent=t;s.className="status show"}
-function renderReservations(){const list=document.getElementById("reservationsList"),all=getReservations();if(!all.length){list.innerHTML="<p>Nenhuma reserva salva neste navegador.</p>";return}list.innerHTML=all.slice().reverse().map(r=>`<div class="reservation"><strong>${escapeHtml(r.nome)}</strong> — ${escapeHtml(r.status)}<br><small>${escapeHtml(r.data)} às ${escapeHtml(r.horario)} · ${escapeHtml(r.pessoas)} · ${escapeHtml(r.tipo)}<br>Telefone: ${escapeHtml(r.telefone)}${r.obs?"<br>Obs.: "+escapeHtml(r.obs):""}</small><br><button data-confirm="${r.id}" class="secondary" style="margin-top:8px;padding:7px 10px">Marcar confirmada</button> <button data-delete="${r.id}" class="secondary" style="margin-top:8px;padding:7px 10px">Excluir</button></div>`).join("");list.querySelectorAll("[data-confirm]").forEach(b=>b.onclick=()=>{const a=getReservations();const x=a.find(r=>r.id===Number(b.dataset.confirm));if(x)x.status="Confirmada";saveReservations(a);renderReservations()});list.querySelectorAll("[data-delete]").forEach(b=>b.onclick=()=>{saveReservations(getReservations().filter(r=>r.id!==Number(b.dataset.delete)));renderReservations()})}
-function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-document.getElementById("ownerLogin").addEventListener("click",()=>{if(document.getElementById("ownerPass").value==="terapia-demo"){document.getElementById("ownerPanel").hidden=false;renderReservations();showOwnerStatus("Painel de demonstração aberto. Não use esta senha como segurança real.")}else showOwnerStatus("Senha incorreta. Para demonstração, use terapia-demo.")});
-document.getElementById("exportCsv").addEventListener("click",()=>{const a=getReservations();if(!a.length){showOwnerStatus("Não há reservas para exportar.");return}const cols=["nome","telefone","data","horario","pessoas","tipo","obs","status"];const csv=[cols.join(";"),...a.map(r=>cols.map(k=>'"'+String(r[k]??"").replace(/"/g,'""')+'"').join(";"))].join("\r\n");const blob=new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8;"}),url=URL.createObjectURL(blob),link=document.createElement("a");link.href=url;link.download="reservas-terapia.csv";link.click();URL.revokeObjectURL(url)});
-document.getElementById("clearReservations").addEventListener("click",()=>{if(confirm("Apagar todas as reservas salvas neste navegador?")){saveReservations([]);renderReservations();showOwnerStatus("Reservas locais apagadas.")}});
+// A chave publishable é pública. Nunca use service_role ou secret key aqui.
+const SUPABASE_URL = "https://cvhdksxoupitjgouohbl.supabase.co";
+const SUPABASE_PUBLIC_KEY = "sb_publishable_1FNkeVeNr7vC3b0WfK0sKQ_ZfR5SlmN";
+const client = window.supabase?.createClient(SUPABASE_URL, SUPABASE_PUBLIC_KEY);
+const bookingForm = document.getElementById("bookingForm");
+const dateInput = document.getElementById("data");
+const submitButton = bookingForm.querySelector('button[type="submit"]');
+function localToday(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`}
+dateInput.min = localToday();
+function showBookingStatus(message){const el=document.getElementById("formStatus");el.textContent=message;el.className="status show"}
+bookingForm.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  if (!bookingForm.reportValidity()) return;
+  if (!client) {showBookingStatus("Não foi possível carregar o sistema de reservas. Tente novamente mais tarde.");return;}
+  const f = new FormData(bookingForm);
+  const data = String(f.get("data") || "");
+  if (data < localToday()) {showBookingStatus("Escolha uma data de hoje em diante.");return;}
+  const escolhaPessoas = String(f.get("pessoas") || "");
+  const pessoas = escolhaPessoas.startsWith("Mais") ? 11 : parseInt(escolhaPessoas, 10);
+  if (!Number.isInteger(pessoas) || pessoas < 1 || pessoas > 30) {showBookingStatus("Selecione a quantidade de pessoas.");return;}
+  const reserva = {
+    nome: String(f.get("nome") || "").trim(),
+    telefone: String(f.get("telefone") || "").trim(),
+    data,
+    horario: String(f.get("horario") || ""),
+    pessoas,
+    tipo: String(f.get("tipo") || ""),
+    observacoes: String(f.get("obs") || "").trim() || null
+  };
+  if (!reserva.nome || !reserva.telefone) {showBookingStatus("Informe seu nome e telefone.");return;}
+  submitButton.disabled = true;
+  submitButton.textContent = "Enviando reserva...";
+  try {
+    const {error} = await client.from("reservas").insert(reserva);
+    if (error) throw error;
+    showBookingStatus("Solicitação enviada com sucesso! Aguarde a confirmação do TERAPIA BAR. Guarde a data e o horário solicitados.");
+    bookingForm.reset();
+    dateInput.min = localToday();
+  } catch (err) {
+    console.error("Falha ao enviar reserva:", err);
+    showBookingStatus("Não foi possível enviar sua reserva. Tente novamente ou entre em contato pelo WhatsApp.");
+  } finally {
+    submitButton.disabled = false;
+    submitButton.textContent = "Enviar solicitação de reserva ↗";
+  }
+});
 </script>
 </body>
 </html>
